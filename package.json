@@ -1,0 +1,36 @@
+{
+  "name": "virtual-workforce-chrome-extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension for automating tasks on Medium.com using various AI integrations and automation capabilities.",
+  "main": "coreFunctionality.js",
+  "scripts": {
+    "start": "node coreFunctionality.js",
+    "test": "node testing.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/virtual-workforce-chrome-extension.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "automation",
+    "AI",
+    "Medium.com",
+    "OpenAI",
+    "Inworld AI",
+    "Anthropic",
+    "Google AI"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "jest": "^26.6.3"
+  }
+}

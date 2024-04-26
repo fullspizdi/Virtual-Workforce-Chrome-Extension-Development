@@ -1,0 +1,76 @@
+/* ui.css - Stylesheet for Virtual Workforce Dashboard */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: white;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+#status, #controls {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#status h2, #controls h2 {
+    color: #007BFF;
+}
+
+#logs {
+    height: 150px;
+    overflow-y: auto;
+    background-color: #e9ecef;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#logs p {
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button#stopAutomation {
+    background-color: #dc3545;
+}
+
+button#stopAutomation:hover {
+    background-color: #c82333;
+}
